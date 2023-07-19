@@ -1,0 +1,25 @@
+.about__container{
+    width: 100%;
+    background: black;
+    color: white;
+    padding:2rem 6rem;
+}
+.about__container h2{
+    margin-bottom: 40px;
+}
+.chef{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.chef-info img{
+    width:270px;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:  2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17)
+}

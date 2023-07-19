@@ -1,0 +1,133 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-container img {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reser-container {
+    width: 80%;
+    margin: 0px 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 110px;
+    padding: 90px 0px;
+    background-color: black;
+
+
+
+
+}
+
+.css-1hb7zxy-IndicatorsContainer {
+    padding-left: 60px;
+}
+
+#react-select-3-placeholder {
+    color: black;
+}
+
+path {
+    color: black;
+}
+
+span.css-1u9des2-indicatorSeparator {
+    background-color: black;
+}
+
+#react-select-2-placeholder {
+    color: black;
+}
+
+input {
+    width: 180px;
+    font-size: 18px;
+}
+
+input.inputBox {
+    font-size: 18px;
+    padding: 7px 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    color: black;
+
+}
+
+.calendarwrap {
+    display: inline-block;
+    position: relative;
+}
+
+.calendarElement {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40px;
+    border: 1px solid green;
+    z-index: 999;
+}
+
+
+
+.booknow button {
+    background-color: black;
+    color: white;
+    padding: 5px 24px;
+    border-radius: 0px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 22px;
+}
+
+.booknow button:hover {
+    background-color: white;
+    color: black;
+    transition: all 1s ease;
+    ;
+}
+
+@media only screen and (max-width: 624px) {
+    .content{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .reser-container {
+        bottom:0px;
+        display: block;
+        padding: 60px 60px;
+        margin:0px;
+        bottom:40px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        
+    }
+
+
+.booknow{
+    margin-top:20px;
+    text-align: center;
+}
+.person{
+margin-bottom: 15px;
+
+}
+.calendarwrap{
+margin-bottom: 15px;
+}
+}

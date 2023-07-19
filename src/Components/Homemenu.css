@@ -1,0 +1,133 @@
+.Hmenu-container {
+    margin-bottom: 2rem;
+    padding: 1rem 6rem;
+    width: 100%;
+}
+
+.Hmenu-container h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.Hmenu {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+}
+
+.Hmenu-items {
+    padding: 10px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.Hmenu-items p {
+    font-family: 'Lumanosimo', cursive;
+}
+
+.Hmenu-items h2 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.Hmenu-items span {
+    font-size: 12px;
+}
+
+.Hmenu-items ul {
+
+    padding-bottom: 1rem;
+}
+
+.Hmenu-items ul li {
+    font-family: 'Lumanosimo', cursive;
+    list-style: none;
+
+}
+
+.Hmenu-items-content {
+    padding: 15px;
+    border: 2px solid transparent;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+}
+
+
+.Hmenu-items-content:hover{
+ color: white;
+ background: black;
+}
+
+
+.lines {
+    height: 1.5rem;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; */
+    border-bottom: 2px dotted #7a7879;
+}
+
+.view-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    color: #fff;
+    justify-content: center;
+    background: #242424;
+    box-shadow: 5px 4px rgb(100, 97, 97);
+}
+
+.view-menu {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+.img-menu{
+display: flex;
+justify-content: center;
+}
+.img-menu img{
+width:360px;
+height: 325px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: contain;
+transition: all 0.5s linear;
+}
+.img-menu img:hover{
+transform: scale(0.9);
+}
+@media only screen and (max-width:620px) {
+  .Hmenu-container{
+padding:1rem 3rem;
+  }
+}
+@media screen and (max-width:1024px) {
+    .Hmenu {
+        width: 100%;
+        justify-content: center;
+        display: block;
+    }
+
+    .Hmenu .Hmenu-items {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,43 @@
+.homeabout{
+    padding:2rem 6rem;
+}
+
+.homeabout__container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.homeabout__content{
+    text-align: justify;
+    padding:5px 50px;
+    margin-bottom: 20px;
+}
+.homeabout__content h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.chef__img{
+    display: flex;
+    justify-content: center;
+}
+.chef__img img{
+width:350px;
+height:360px;
+background-position: cover;
+object-fit: contain;
+}
+
+.homeabout__content p{
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:820px){
+   .homeabout{
+    padding: 1rem 3rem;
+   }
+    .homeabout__container{
+        display: block;
+        justify-content: center;
+    }
+}

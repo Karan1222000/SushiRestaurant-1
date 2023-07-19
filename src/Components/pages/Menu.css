@@ -1,0 +1,54 @@
+
+.menu{
+    background: black;
+    color:rgb(201, 158, 58);
+    padding: 30px 0px;
+}
+.container h1{
+    font-family: 'Lumanosimo', cursive;
+}
+.menu-container{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 30px;
+ 
+}
+
+.menu-content{
+    color: white;
+}
+.menu-content h2{
+    margin-bottom: 40px;
+    font-weight: 0;
+    font-family: 'Lumanosimo', cursive;
+    color:goldenrod;
+}
+.menu-img img{
+    width: 240px;
+    height: 350px;
+    object-fit: cover;
+   
+}
+
+hr .line{
+    border:1px dashed goldenrod;
+}
+
+@media screen and (max-width:624px) {
+   
+    .menu-container{
+        width: 100%;
+        display: block;
+        padding: 0px 69px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .menu-img img{
+      max-width: auto;
+       height: 250px;
+       background-position: cover;
+     }
+}

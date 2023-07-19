@@ -1,0 +1,21 @@
+.menu__items{
+    display: flex;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+}
+.menu__item__text-1{
+    color: rgb(201, 158, 58);
+}
+.menu__item__info ul{
+    list-style: none;
+    display: block;
+}
+.menu__item__info ul li{
+    margin-bottom: 10px;
+}
+a.menu__items{
+    justify-content: space-between;
+}
