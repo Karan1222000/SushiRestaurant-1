@@ -9,13 +9,21 @@
 }
 .homeabout__content{
     text-align: justify;
-    padding:5px 50px;
+    justify-content: center;
+    padding:10px 16px;
     margin-bottom: 20px;
 }
 .homeabout__content h2{
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: left;
+}
+button{
+    font-size: 16px;
+    font-weight: 500;
+}
+.homeabout__content button::before{
+    padding: 20px 67px;
 }
 .chef__img{
     display: flex;

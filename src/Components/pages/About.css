@@ -1,25 +1,176 @@
-.about__container{
+.about__container {
     width: 100%;
-    background: black;
+    background:black;
     color: white;
-    padding:2rem 6rem;
+    padding: 1rem 6rem;
 }
-.about__container h2{
-    margin-bottom: 40px;
-}
-.chef{
+
+.aboutus {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    
+    text-align: justify;
+    margin-bottom: 80px;
 }
-.chef-info img{
-    width:270px;
+
+.content h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutus p {
+    margin: 20px;
+    line-height: 1.7;
+}
+
+.aboutus img {
+    width: 500px;
     background-position: center;
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: cover;
-    border:  2px solid transparent;
+}
+
+.chef {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.ourchef h2 {
+    margin-bottom: 40px;
+}
+
+.chef-content {
+    transition: all 30s;
+}
+
+.chef-content .chef-links {
+    display: none;
+    justify-content: center;
+
+}
+
+.chef-content .chef-links ul {
+    background-color: black;
+    margin-left: 20px;
+    padding: 40px 60px;
+}
+
+.chef-content .chef-links ul li {
+    text-align: justify;
+    list-style: none;
+}
+
+.chef-content .chef-links ul li a {
+    cursor: pointer;
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.chef-content .chef-links ul li a i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.chef-content .chef-links ul li a:hover {
+    color: grey;
+}
+
+.chef-content .chef-info:hover .chef-links {
+    display: block;
+    position: absolute;
+    transform: translateY(-150%);
+}
+
+.chef-info {
+    width: 270px;
+}
+
+.chef-info img {
+    width: 270px;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
     border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17)
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.chef-content:hover img {
+    opacity: 0.3;
+}
+
+.about-us {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.about-us h2 {
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.reviews h2 {
+    margin-bottom: 40px;
+}
+
+.slider img {
+    width: 330px;
+    height: 360px;
+
+}
+.reviews svg{
+    color: goldenrod;
+}
+.slider{
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width:624px) {
+    .about__container {
+        padding: 1rem 3rem;
+    }
+
+    .aboutus {
+        display: block;
+    }
+
+    .content h2 {
+        margin-bottom: 25px;
+    }
+
+    .aboutus img {
+        width: 100%;
+    }
+
+    .ourchef h2{
+        font-size: 26px;
+    }
+    .chef{
+        display: block;
+    }
+    .chef-content{
+        display: flex;
+        margin:0px;
+    }
+    .chef-info{
+        width: 100%;
+    }
+    .chef-content .chef-links ul{
+      align-items: center;  
+    }
+  
 }

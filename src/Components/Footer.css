@@ -53,6 +53,10 @@ button.footer-btn{
     border-radius: 0%;
     outline: none;
 }
+button.footer-btn:hover{
+    background:white;
+    color: black;
+}
 .footer-links {
     margin-top:40px;
     width: 100%;

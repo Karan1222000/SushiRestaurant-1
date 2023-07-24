@@ -25,9 +25,15 @@ border: 1px solid var(--primary);
     border-radius: 0;
     transition: all 0.3s ease-out;
 }
+.btn--outline::before{
+    top:0px;
+    left: 0px;
+    background: #1b1919;
+}
 .btn--medium{
     padding: 8px 20px;
     font-size: 20px;
+    margin-top:0px;
 }
 .btn--large{
     padding: 12px 26px;
@@ -38,4 +44,7 @@ border: 1px solid var(--primary);
     background: #242424;
     color: #fff;
     transition: all 0.3s ease-out;
+}
+.btn--outline:hover{
+    background: rgb(41, 37, 37);
 }

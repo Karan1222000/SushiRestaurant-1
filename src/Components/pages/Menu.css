@@ -26,6 +26,7 @@
     color:goldenrod;
 }
 .menu-img img{
+    margin-top:80px;
     width: 240px;
     height: 350px;
     object-fit: cover;

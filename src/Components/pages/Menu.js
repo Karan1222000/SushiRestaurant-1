@@ -9,9 +9,8 @@ function Menu() {
         <><div className="container">
             <h1 className='menu' >Explore Our Menu</h1>
             <div className="menu-container">
-
                 <div className="menu-content">
-                {/* <SVGCustom src={<TestSvg />} fill={'red'} width={'200px'} /> */}
+                    {/* <SVGCustom src={<TestSvg />} fill={'red'} width={'200px'} /> */}
                     <h2>Fusion Sushi</h2>
                     <div className="menu-items">
                         <Menuitem
@@ -182,98 +181,129 @@ function Menu() {
             </div>
 
             <div className="menu-container">
+                <div className="menu-img">
+                    <img src="images/img-18.jpg"></img>
+                </div>
                 <div className="menu-content">
-                   
                     <h2>Cocktails</h2>
                     <div className="menu-items">
                         <Menuitem
-                            text1='Cassis Liqueur & Orange'                          
+                            text1='Cassis Liqueur & Orange'
+                            text2='Famous Japanese inspired Cocktails'
                             price='¥500'
                         />
                         <hr className="line"></hr>
                         <Menuitem
-                            text1='Shandy Gaff'                      
+                            text1='Shandy Gaff'
+                            text2='Japanese inspired Cocktails'
                             price='¥500'
                         />
                         <hr className="line"></hr>
                         <Menuitem
-                            text1='Peach Liqueur & Soda'                         
+                            text1='Peach Liqueur & Soda'
+                            text2='Japanese inspired Cocktails'
                             price='¥500'
                         />
                         <hr className="line"></hr>
                         <Menuitem
-                            text1='Moscow Mule'                       
+                            text1='Moscow Mule'
+                            text2='Japanese inspired Cocktails'
                             price='¥500'
                         />
                         <hr className="line"></hr>
                         <Menuitem
-                            text1='Fuzzey Navel'                      
+                            text1='Fuzzey Navel'
+                            text2='Japanese inspired Cocktails'
                             price='¥500'
                         />
                     </div>
+                </div>
+</div>
+                <div className="menu-container">
+
+
+                    <div className="menu-content">
+                        <h2>Beer</h2>
+                        <div className="menu-items">
+                            <Menuitem
+                                text1='Sapporo Premium'
+                                text2='Famous Japanese Style Beer'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Asahi Super Dry'
+                                text2='Famous Japanese Style Beer'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Bud Light'
+                                text2='Famous Japanese Style Beer'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Heineken'
+                                text2='Famous Japanese Style Beer'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Corona'
+                                text2='Famous Japanese Style Beer'
+                                price='¥500'
+                            />
+                        </div>
+                    </div>
+                    <div className="menu-img">
+                        <img src="images/img-19.jpg"></img>
+                    </div>
+                    </div>
+
+                <div className="menu-container">
+
+                    <div className="menu-img">
+                        <img src="images/img-20.jpg"></img>
                     </div>
                     <div className="menu-content">
-                    <h2>Beer</h2>
-                    <div className="beer">
-                    <Menuitem
-                            text1='Sapporo Premium'                          
-                            price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Asahi Super Dry'                          
-                            price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Bud Light'                          
-                            price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Heineken'                          
-                            price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Corona'                          
-                            price='¥500'
-                        />
-                    </div>
-                    </div>
-                    <div className="menu-content">
-                    <h2>Sake</h2>
-                    <div className="sake">
-                    <Menuitem
-                     text1='Koshino Kagetora'                       
-                     price='¥500'                       
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Kagatobi'                       
-                            price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                           text1='Kasen Goukai'                       
-                           price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Shirakabegura'                       
-                            price='¥500'
-                        />
-                        <hr className="line"></hr>
-                    <Menuitem
-                            text1='Shimeharitsuru'                       
-                            price='¥500'
-                        />
-                    </div>
+                        <h2>Sake</h2>
+                        <div className="menu-items">
+                            <Menuitem
+                                text1='Koshino Kagetora'
+                                text2='Popular Japanese Alcoholic drinks'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Kagatobi'
+                                text2='Popular Japanese Alcoholic drinks'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Kasen Goukai'
+                                text2='Popular Japanese Alcoholic drinks'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Shirakabegura'
+                                text2='Popular Japanese Alcoholic drinks'
+                                price='¥500'
+                            />
+                            <hr className="line"></hr>
+                            <Menuitem
+                                text1='Shimeharitsuru'
+                                text2='Popular Japanese Alcoholic drinks'
+                                price='¥500'
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
         
-    
+
         </>
     );
 }
