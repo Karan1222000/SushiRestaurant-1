@@ -33,8 +33,7 @@ function Cards() {
                 <CardItem 
                 src='images/img-5.jpg' 
                 path='/services'
-                />
-               
+                />         
             </ul>
         </div>
       </div>
