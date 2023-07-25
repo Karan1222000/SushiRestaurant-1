@@ -21,7 +21,7 @@ function Booking() {
                     <button>BOOK A TABLE</button>
                 </div>
                 <div className='img_events'>
-                    <img src='images/img-11.jpg' />
+                    <img src='assets/img-11.jpg' />
                 </div>
             </div>
         </>

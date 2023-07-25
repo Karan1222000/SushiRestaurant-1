@@ -10,11 +10,11 @@ function Cards() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <CardItem 
-                src='images/img01.jpg'
+                src='../public/assets/img01.jpg'
                 path='/services'
                 />
                 <CardItem 
-                src='images/img02.jpg' 
+                src='.../assets/img02.jpg' 
                 // text="Travel through the Islands of Bali in a Private Cruise" 
                 // label="Udon"
                 path='/services'
@@ -23,15 +23,15 @@ function Cards() {
             </ul>
             <ul className='cards__items'>
                 <CardItem 
-                src='images/img3.jpg'
+                src='../assets/img3.jpg'
                 path='/services'
                 />
                 <CardItem 
-                src='images/img04.jpg' 
+                src='./public/assets/img04.jpg' 
                 path='/services'
                 />
                 <CardItem 
-                src='images/img05.jpg' 
+                src='public/assets/img05.jpg' 
                 path='/services'
                 />         
             </ul>

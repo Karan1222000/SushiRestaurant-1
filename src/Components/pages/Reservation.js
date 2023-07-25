@@ -68,7 +68,7 @@ function Reservation() {
 
     return (
         <> <div className='main-container'>
-            <img src="images/img-7.jpg"/>
+            <img src="assets/img-7.jpg"/>
             <div className='content'>
             <div className='reser-container'>
                 <div className='person'>

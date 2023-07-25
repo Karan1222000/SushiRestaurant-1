@@ -24,7 +24,7 @@ function AboutUs() {
               cabo. Nem odit aut fugit, sedquiac onsequ.</p>
           </div>
           <div className='image'>
-            <img src='images/img-17.jpg' />
+            <img src='assets/img-17.jpg' />
           </div>
         </div>
 
@@ -34,7 +34,7 @@ function AboutUs() {
           <div className='chef'>
             <div className='chef-content'>
               <div className='chef-info'>
-                <img src="images/img-22.jpg" />
+                <img src="assets/img-22.jpg" />
                 <div className='chef-links'>
                   <ul>
                     <li><a href='https://www.facebook.com/'> <i className='fab fa-facebook'></i>Facebook</a></li>
@@ -48,7 +48,7 @@ function AboutUs() {
 
             <div className='chef-content'>
               <div className='chef-info'>
-                <img src="images/img-23.jpg" />
+                <img src="assets/img-23.jpg" />
                 <div className='chef-links'>
                   <ul>
                     <li><a href='https://www.facebook.com/'> <i className='fab fa-facebook'></i>Facebook</a></li>
@@ -62,7 +62,7 @@ function AboutUs() {
 
             <div className='chef-content'>
               <div className='chef-info'>
-                <img src="images/img-22.jpg" />
+                <img src="assets/img-22.jpg" />
                 <div className='chef-links'>
                   <ul>
                     <li><a href='https://www.facebook.com/'><i className='fab fa-facebook'></i>Facebook</a></li>
