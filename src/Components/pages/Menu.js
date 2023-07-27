@@ -35,7 +35,7 @@ function Menu() {
                         />
                     </div>
                 </div> <div className="menu-img">
-                    <img src="assets/img-6.jpg"></img>
+                    <img src="/assets/img-6.jpg"></img>
                 </div>
 
             </div>
@@ -43,7 +43,7 @@ function Menu() {
 
             <div className="menu-container">
                 <div className="menu-img">
-                    <img src="assets/img-8.jpg"></img>
+                    <img src="/assets/img-8.jpg"></img>
                 </div>
                 <div className="menu-content">
                     <h2>Sushi Rolls</h2>
@@ -105,14 +105,14 @@ function Menu() {
                     </div>
                 </div>
                 <div className="menu-img">
-                    <img src="assets/img-10.jpg"></img>
+                    <img src="/assets/img-10.jpg"></img>
                 </div>
 
             </div>
 
             <div className="menu-container">
                 <div className="menu-img">
-                    <img src="assets/img-9.jpg"></img>
+                    <img src="/assets/img-9.jpg"></img>
                 </div>
                 <div className="menu-content">
                     <h2>Udon</h2>
@@ -176,13 +176,13 @@ function Menu() {
                     </div>
                 </div>
                 <div className="menu-img">
-                    <img src="assets/img-12.jpg"></img>
+                    <img src="/assets/img-12.jpg"></img>
                 </div>
             </div>
 
             <div className="menu-container">
                 <div className="menu-img">
-                    <img src="assets/img-18.jpg"></img>
+                    <img src="/assets/img-18.jpg"></img>
                 </div>
                 <div className="menu-content">
                     <h2>Cocktails</h2>
@@ -257,14 +257,14 @@ function Menu() {
                         </div>
                     </div>
                     <div className="menu-img">
-                        <img src="assets/img-19.jpg"></img>
+                        <img src="/assets/img-19.jpg"></img>
                     </div>
                     </div>
 
                 <div className="menu-container">
 
                     <div className="menu-img">
-                        <img src="assets/img-20.jpg"></img>
+                        <img src="/assets/img-20.jpg"></img>
                     </div>
                     <div className="menu-content">
                         <h2>Sake</h2>

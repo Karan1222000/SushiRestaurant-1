@@ -24,7 +24,7 @@ function AboutUs() {
               cabo. Nem odit aut fugit, sedquiac onsequ.</p>
           </div>
           <div className='image'>
-            <img src='assets/img-17.jpg' />
+            <img src='/assets/img-17.jpg' />
           </div>
         </div>
 
@@ -34,7 +34,7 @@ function AboutUs() {
           <div className='chef'>
             <div className='chef-content'>
               <div className='chef-info'>
-                <img src="assets/img-22.jpg" />
+                <img src="/assets/img-22.jpg" />
                 <div className='chef-links'>
                   <ul>
                     <li><a href='https://www.facebook.com/'> <i className='fab fa-facebook'></i>Facebook</a></li>
@@ -48,7 +48,7 @@ function AboutUs() {
 
             <div className='chef-content'>
               <div className='chef-info'>
-                <img src="assets/img-23.jpg" />
+                <img src="/assets/img-23.jpg" />
                 <div className='chef-links'>
                   <ul>
                     <li><a href='https://www.facebook.com/'> <i className='fab fa-facebook'></i>Facebook</a></li>
@@ -62,7 +62,7 @@ function AboutUs() {
 
             <div className='chef-content'>
               <div className='chef-info'>
-                <img src="assets/img-22.jpg" />
+                <img src="/assets/img-22.jpg" />
                 <div className='chef-links'>
                   <ul>
                     <li><a href='https://www.facebook.com/'><i className='fab fa-facebook'></i>Facebook</a></li>
@@ -103,20 +103,59 @@ function AboutUs() {
               <li><p>EXPERT CHEF</p></li>
             </ul>
           </div>
-          </div>
+        </div>
 
-          <div className='strength'>
-            <h2><StrokeDesign />Why Choose Us<StrokeDesign /></h2>
-          </div>
-          <div className='reviews'>
-            <h2><StrokeDesign />Our Reviews<StrokeDesign /></h2>
-            <div className='slider'>
-              <PhotoSlider/>             
+        <div className='strength'>
+          <h2><StrokeDesign />Why Choose Us<StrokeDesign /></h2>
+          <div className='strength-container'>
+            <div className='strengths'>
+              <div className='back-img'>
+                <img src='/assets/img25.jpg' />
+              </div>
+              <div className='over-box'>
+                <img src='' />
+                <h4>Hygienic Food</h4>
+              </div>
+            </div>
+            <div className='strengths'>
+              <div className='back-img'>
+                <img src='/assets/img26.jpg' />
+              </div>
+              <div className='over-box'>
+                <img src='' />
+                <h4>Fresh Environment</h4>
+              </div>
+            </div>
+            <div className='strengths'>
+              <div className='back-img'>
+                <img src='/assets/img27.jpg' />
+              </div>
+              <div className='over-box'>
+                <img src='' />
+                <h4>Skilled Chefs</h4>
+              </div>
+            </div>
+            <div className='strengths'>
+              <div className='back-img'>
+                <img src='/assets/img28.jpg' />
+              </div>
+              <div className='over-box'>
+                <img src='' />
+                <h4>Event & Party</h4>
+              </div>
             </div>
           </div>
+
         </div>
-      </>
-      )
+        <div className='reviews'>
+          <h2><StrokeDesign />Our Reviews<StrokeDesign /></h2>
+          <div className='slider'>
+            <PhotoSlider />
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
 
-      export default AboutUs;
+export default AboutUs;

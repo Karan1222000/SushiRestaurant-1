@@ -81,7 +81,7 @@ function Footer() {
                         <div className='social-media-wrap'>
                             <div className='footer-logo'>
                                 <Link className='social-logo'>
-                                <img src="assets/logo.jpg"/>
+                                <img src="/assets/logo.jpg"/>
                                 </Link>
                             </div>
                             <small className='website-rights'>Sushi @ 2023</small>

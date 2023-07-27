@@ -31,7 +31,7 @@ function Homemenu() {
 
 <div className='Hmenu-items'>
 <div className='img-menu'>
-    <img src="assets/img-14.jpg"></img>
+    <img src="/assets/img-14.jpg"></img>
 </div>
 </div>
 

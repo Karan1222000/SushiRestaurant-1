@@ -20,7 +20,7 @@ function Homeabout() {
                         <button>Explore More</button>
                     </div>
                     <div className='chef__img'>
-                        <img src="assets/img-13.jpg" />
+                        <img src="/assets/img-13.jpg" />
                     </div>
                 </div>
             </div>
