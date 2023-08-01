@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SushiRestaurant-1/static/css/main.c6ee6a35.css",
+    "main.js": "/SushiRestaurant-1/static/js/main.7b3fc4c0.js",
+    "static/media/img-14.jpg": "/SushiRestaurant-1/static/media/img-14.aeb9d5870809e5007f0e.jpg",
+    "static/media/img04.jpg": "/SushiRestaurant-1/static/media/img04.f64a49a3167fbc56070f.jpg",
+    "static/media/img3.jpg": "/SushiRestaurant-1/static/media/img3.deb36fea04af710bbe6b.jpg",
+    "static/media/img02.jpg": "/SushiRestaurant-1/static/media/img02.237dcaf0a9f2961961bd.jpg",
+    "static/media/img1.jpg": "/SushiRestaurant-1/static/media/img1.01740688ae8c29911372.jpg",
+    "static/media/img05.jpg": "/SushiRestaurant-1/static/media/img05.9b3f8b46cac1e4361686.jpg",
+    "static/media/img01.jpg": "/SushiRestaurant-1/static/media/img01.2b186fdbca3cfd3717a7.jpg",
+    "static/media/logo.jpg": "/SushiRestaurant-1/static/media/logo.6027b0dd576397ccc02e.jpg",
+    "static/media/slick.svg": "/SushiRestaurant-1/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SushiRestaurant-1/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SushiRestaurant-1/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SushiRestaurant-1/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SushiRestaurant-1/index.html",
+    "main.c6ee6a35.css.map": "/SushiRestaurant-1/static/css/main.c6ee6a35.css.map",
+    "main.7b3fc4c0.js.map": "/SushiRestaurant-1/static/js/main.7b3fc4c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6ee6a35.css",
+    "static/js/main.7b3fc4c0.js"
+  ]
+}
