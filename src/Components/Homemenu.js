@@ -2,6 +2,7 @@ import react from 'react';
 import './Homemenu.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
+import IMG14 from './image/img-14.jpg'
 
 function Homemenu() {
     return (
@@ -31,7 +32,7 @@ function Homemenu() {
 
 <div className='Hmenu-items'>
 <div className='img-menu'>
-    <img src="/assets/img-14.jpg"></img>
+    <img src={IMG14}></img>
 </div>
 </div>
 
